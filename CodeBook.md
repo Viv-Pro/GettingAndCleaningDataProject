@@ -1,17 +1,12 @@
 # CodeBook
 
 ## Original Data
-The raw data were collected from 30 subjects who performed six activities (walking, walking upstairs, walking downstairs, sitting, standing, and laying) while wearing a Samsung Galaxy S smartphone. The phone’s accelerometer and gyroscope captured 3-axial linear acceleration and angular velocity.
+The raw data were collected from 30 subjects who performed six activities (walking, walking upstairs, walking downstairs, sitting, standing, and laying) while wearing a Samsung Galaxy S smartphone.
 
 ## Variables
 - **subject** — ID number of the test subject (1–30)  
 - **activityName** — Descriptive activity name (e.g., WALKING, SITTING, etc.)  
 - **Other columns** — Mean and standard deviation features selected from the original dataset, including signals from the accelerometer and gyroscope.
-
-Examples:
-- `TimeBodyAccelerometerMeanX`
-- `TimeBodyAccelerometerStdY`
-- `FrequencyBodyGyroscopeMeanZ`
 
 ## Transformations Performed
 1. Merged the training and test datasets into one.
